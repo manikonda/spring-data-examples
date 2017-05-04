@@ -16,19 +16,10 @@
 package example.springdata.jpa.security;
 
 import org.springframework.boot.autoconfigure.SpringBootApplication;
-import org.springframework.context.annotation.Bean;
-import org.springframework.data.repository.query.spi.EvaluationContextExtension;
-import org.springframework.security.data.repository.query.SecurityEvaluationContextExtension;
 
 /**
  * @author Oliver Gierke
  * @author Thomas Darimont
  */
 @SpringBootApplication
-class SecurityConfiguration {
-
-	@Bean
-	EvaluationContextExtension securityExtension() {
-		return new SecurityEvaluationContextExtension();
-	}
-}
+class SecurityConfiguration {}

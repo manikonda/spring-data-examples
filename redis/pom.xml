@@ -21,7 +21,7 @@
 		<module>example</module>
 		<module>cluster</module>
 		<module>repositories</module>
-		<module>reactive</module>
+		<!--<module>reactive</module>-->
 	</modules>
 
 	<dependencies>
